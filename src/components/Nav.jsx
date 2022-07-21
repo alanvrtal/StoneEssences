@@ -48,16 +48,17 @@ export const Nav = () => {
         <header className={`header ${scrollHeader ? 'scroll-header' : ''}`} id="header">
             <nav className="nav container">
                 <a href="#" className="nav__logo">
-                    <img src="public\img\logo.png" alt="" className="nav__logo-img" />
-                    Coffee.
+                    <img src="public\img\stone.png" alt="" className="nav__logo-img" />
+                    Stone Essences
                 </a>
                 <div className={`nav__menu ${showMenu ? 'show' : ""}`} id="nav-menu">
                     <ul onClick={handleMenu} className="nav__list">
+                        <img src="img\stone.png" alt="" className="nav__menu-logo" />
                         <li className="nav__item">
-                            <a href="#home" className="nav__link">Home</a>
+                            <a href="#home" className="nav__link">Inicio</a>
                         </li>
                         <li className="nav__item">
-                            <a href="#products" className="nav__link">Products</a>
+                            <a href="#products" className="nav__link">Productos</a>
                         </li>
                         <li className="nav__item">
                             <a href="#premium" className="nav__link">Premium</a>

@@ -4,7 +4,7 @@
     
     /* Colors */
     /* Color mode HSL(hue, saturation, lightness) */
-    --first-color: hsl(36,72%,48%);
+    --first-color: rgb(223, 187, 135);
     --first-color-alt: hsl(36,72%,44%);
     --black-color: hsl(206,12%,12%);
     --card-color: hsl(0,0%,90%);
@@ -137,7 +137,10 @@ button {
     font-weight: var(--font-bold);
 }
 .nav__logo-img {
-    width: .75rem;
+    width: 2rem;
+}
+.nav__menu-logo {
+    display: none;
 }
 
 .nav__toggle {
@@ -157,12 +160,19 @@ button {
         transition: .3s;
     }
 }
+.nav__menu-logo {
+    display: flex;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 .nav__list {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     row-gap: 3rem;
-    padding-top: 9rem;
+    padding-top: 5rem;
 }
 .nav__link {
     text-transform: uppercase;
@@ -253,8 +263,8 @@ button {
 }
 .home__scroll {
     position: absolute;
-    width: 100px;
-    bottom: -7rem;
+    width: 90px;
+    bottom: -5.7rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -555,6 +565,14 @@ button {
     color: #fff;
     font-size: var(--h1-font-size);
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.footer__title-logo {
+
+    justify-content: baseline;
+    height: 2rem;
+    max-width: 100%;
 }
 .footer__description {
     margin-bottom: .75rem;
@@ -700,6 +718,9 @@ button {
     }
     .nav__toggle,
     .nav__close {
+        display: none;
+    }
+    .nav__menu-logo {
         display: none;
     }
     .nav__list {
@@ -855,7 +876,7 @@ button {
         margin-bottom: 1rem;
     }
     .logo__container {
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(4,1fr);
         padding: 3.5rem 0;
     }
     .logo__img {

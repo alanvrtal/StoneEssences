@@ -28,18 +28,18 @@ export const Products = () => {
 <>
 <section className="products section" id="products">
                 <div className="products__container container">
-                    <h2 className="section__title">Elegi lo mas rico y bueno para vos</h2>
+                    <h2 className="section__title">TITULO DE LA SECCION DE PRODUCTOS</h2>
                     <ul className="products__filters">
                         <li  className="products__item products__line" data-filter=".delicacies">
-                            <h3 onClick={linkAction} className="products__title">Rico cafesito </h3>
+                            <h3 onClick={linkAction} className="products__title">Vapers </h3>
                             <span className="products__stock">45 productos</span>
                         </li>
                         <li  className="products__item products__line" data-filter=".coffee">
-                            <h3 onClick={linkAction} className="products__title">Rico cafesito </h3>
+                            <h3 onClick={linkAction} className="products__title">Liquidos </h3>
                             <span className="products__stock">45 productos</span>
                         </li>
                         <li  className="products__item products__line" data-filter=".cake">
-                            <h3 onClick={linkAction} className="products__title">Rico cafesito </h3>
+                            <h3 onClick={linkAction} className="products__title">Extras </h3>
                             <span className="products__stock">45 productos</span>
                         </li>
                     </ul>
@@ -51,7 +51,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $2 </h2>
-                                <h3 className="products__name">Medialuna</h3>
+                                <h3 className="products__name">Vaper 1</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -64,7 +64,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $6 </h2>
-                                <h3 className="products__name">Croissant</h3>
+                                <h3 className="products__name">Vaper 2</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -77,7 +77,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $10 </h2>
-                                <h3 className="products__name">Sanguchitos</h3>
+                                <h3 className="products__name">Vaper 3</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -91,7 +91,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $2 </h2>
-                                <h3 className="products__name">Medialuna</h3>
+                                <h3 className="products__name">Liquido 1</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -104,7 +104,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $6 </h2>
-                                <h3 className="products__name">Croissant</h3>
+                                <h3 className="products__name">Liquido 2</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -117,7 +117,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $10 </h2>
-                                <h3 className="products__name">Sanguchitos</h3>
+                                <h3 className="products__name">Liquido 3</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -130,7 +130,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $2 </h2>
-                                <h3 className="products__name">Medialuna</h3>
+                                <h3 className="products__name">Liquido 4</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -144,7 +144,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $15 </h2>
-                                <h3 className="products__name">Torta ricota</h3>
+                                <h3 className="products__name">Extras 1</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -157,7 +157,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $13 </h2>
-                                <h3 className="products__name">Chocotorta</h3>
+                                <h3 className="products__name">Extras 2</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -170,7 +170,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $10 </h2>
-                                <h3 className="products__name">gokutorta</h3>
+                                <h3 className="products__name">Extras 3</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>
@@ -183,7 +183,7 @@ export const Products = () => {
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $15 </h2>
-                                <h3 className="products__name">Torta ricota</h3>
+                                <h3 className="products__name">Extras 4</h3>
 
                                 <button className="button products__button">
                                     <i className="bx bx-shopping-bag"></i>

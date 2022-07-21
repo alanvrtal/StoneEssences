@@ -5,33 +5,33 @@ export const Home = () => {
             <div className="home__container">
                 <div className="home__content container">
                     <h1 className="home__title">
-                        Choose Your Favorite Coffee and Enjoy <span>.</span>
+                        Titulo principal de la pagina <span>.</span>
                     </h1>
                     <p className="home__description">
-                        Buy the best and delicious coffees.
+                        buy the best and addictives vapers.
                     </p>
                     <div className="home__data">
                         <div className="home__data-group">
                             <h2 className="home__data-number">120K</h2>
-                            <h3 className="home__data-title">Testimonials</h3>
+                            <h3 className="home__data-title">Ventas realizadas</h3>
                             <p className="home__data-description">
-                            Testimonials from various famouse costumers who believe in our coffee.
+                            A lo largo de todo el pais. El local de vapeo mas grande del sur de buenos aires.
                             </p>
                         </div>
                         <div className="home__data-group">
-                            <h2 className="home__data-number">120K</h2>
-                            <h3 className="home__data-title">Testimonials</h3>
+                            <h2 className="home__data-number">100+</h2>
+                            <h3 className="home__data-title">Productos</h3>
                             <p className="home__data-description">
-                            Testimonials from various famouse costumers who believe in our coffee.
+                            Variedad en filtros, liquidos y todo lo necesario para que vapees.
                             </p>
                         </div>
                     </div>
                     <a href="#specialty">
-                        <img src="img\scroll.png" alt="" className="home__scroll" />
+                        <img src="img\stone.png" alt="" className="home__scroll" />
                     </a>
                 </div>
             </div>
-            <img src="img\home.png" alt=""  className="home__img"/>
+            <img src="img\humoHome.jpg" alt=""  className="home__img"/>
         </section>
 </>  )
 }

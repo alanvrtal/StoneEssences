@@ -5,12 +5,12 @@ export const Blog = () => {
 <section className="blog section" id="blog">
                 <div className="blog__container container">
                     <h2 className="section__title">
-                        Our Blogs coffee with trending topic for this week
+                        Nuestro blog dedicado a noticias del mundo vaper!
                     </h2>
                     <div className="blog__content grid">
                         <article className="blog__card">
                             <div className="blog__image">
-                                <img src="img\blog1.png" alt="" className="blog__img" />
+                                <img src="img\noticiasVaper.jpg" alt="" className="blog__img" />
                                 <a href="#" className="blog__button">
                                     <i className="bx bx-right-arrow-alt"></i>
                                 </a>
@@ -18,7 +18,7 @@ export const Blog = () => {
 
                             <div className="blog__data">
                                 <h2 className="blog__title">
-                                    10 Coffee Recommendations
+                                    - 10 Recomendaciones de Vapers
                                 </h2>
 
                                 <p className="blog__description">
@@ -41,7 +41,7 @@ export const Blog = () => {
                         </article>
                         <article className="blog__card">
                             <div className="blog__image">
-                                <img src="img\blog2.png" alt="" className="blog__img" />
+                                <img src="img\noticiasVaper2.jfif" alt="" className="blog__img" />
                                 <a href="#" className="blog__button">
                                     <i className="bx bx-right-arrow-alt"></i>
                                 </a>
@@ -49,7 +49,7 @@ export const Blog = () => {
 
                             <div className="blog__data">
                                 <h2 className="blog__title">
-                                    12 Benefits of Drinking Coffee
+                                    - 12 Beneficios de Vapear
                                 </h2>
 
                                 <p className="blog__description">

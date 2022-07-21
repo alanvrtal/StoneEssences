@@ -52,11 +52,10 @@ export const MainPage = () => {
             <Quality/>
             <section className="logo section">
                 <div className="logo__container container grid">
-                    <img src="img\logocoffee1.png" alt="" className="logo__img" />
-                    <img src="img\logocoffee2.png" alt="" className="logo__img" />
-                    <img src="img\logocoffee3.png" alt="" className="logo__img" />
-                    <img src="img\logocoffee4.png" alt="" className="logo__img" />
-                    <img src="img\logocoffee5.png" alt="" className="logo__img" />
+                    <img src="img\marcaVaper1.png" alt="" className="logo__img" />
+                    <img src="img\marcaVaper2.png" alt="" className="logo__img" />
+                    <img src="img\marcaVaper3.png" alt="" className="logo__img" />
+                    <img src="img\marcaVaper4.png" alt="" className="logo__img" />
                 </div>
             </section>
             <Blog/>
