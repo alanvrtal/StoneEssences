@@ -953,5 +953,6 @@ button {
     z-index: 1000;
 }
 .load__gif {
-    width: 210px;;
+    width: 210px;
+    user-select: none;
 }

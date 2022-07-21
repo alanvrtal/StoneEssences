@@ -11,29 +11,30 @@ import { useEffect, useState } from "react"
 
 export const MainPage = () => {
 
-
+    
+    
     /* APARICION BOTON SCROLLUP */
     const [scroll, setScroll] = useState(false)
     
     useEffect(() => {
-    const scrollUp = () => {
-    if (window.scrollY >= 350) {
-            setScroll(true)
+        const scrollUp = () => {
+            if (window.scrollY >= 350) {
+                setScroll(true)
+            }
+            else {
+                setScroll(false)
+            }
         }
-        else {
-            setScroll(false)
-        }
-    }
-    window.addEventListener('scroll',scrollUp)
-
+        window.addEventListener('scroll',scrollUp)
+        
     }, [])
-
+    
     /* LOADER */
+    const [loading,setLoading] =  useState(true)
+    
     onload = () => {
-        const load = document.getElementById('load')
-
         setTimeout (() => {
-            load.style.display = 'none'
+            setLoading(false)
         }, 2500)
     }
 
@@ -41,10 +42,15 @@ export const MainPage = () => {
 
     return (
         <>
+        {
+        loading ? (
         <div className="load" id="load">
             <img src="img\loadcoffee.gif" alt="" className="load__gif" />
         </div>
-        <Nav/>
+
+        ):(
+            <>
+            <Nav/>
         <main>
             <Home/>
             <Specialty/>
@@ -64,6 +70,9 @@ export const MainPage = () => {
         <a href="#home" className={`scrollup ${scroll ? "show-scroll" : ""}`} id="scroll-up">
             <i className="bx bx-up-arrow-alt"></i>
         </a>
+        </>
+        )
+        }
     </>
   )
 }
