@@ -10,7 +10,7 @@ export const Blog = () => {
                     <div className="blog__content grid">
                         <article className="blog__card">
                             <div className="blog__image">
-                                <img src="public\img\blog1.png" alt="" className="blog__img" />
+                                <img src="img\blog1.png" alt="" className="blog__img" />
                                 <a href="#" className="blog__button">
                                     <i className="bx bx-right-arrow-alt"></i>
                                 </a>
@@ -41,7 +41,7 @@ export const Blog = () => {
                         </article>
                         <article className="blog__card">
                             <div className="blog__image">
-                                <img src="public\img\blog2.png" alt="" className="blog__img" />
+                                <img src="img\blog2.png" alt="" className="blog__img" />
                                 <a href="#" className="blog__button">
                                     <i className="bx bx-right-arrow-alt"></i>
                                 </a>

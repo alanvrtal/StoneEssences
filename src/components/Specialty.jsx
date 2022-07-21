@@ -13,21 +13,21 @@ export const Specialty = () => {
                     </div>
                     <div className="specialty__category">
                         <div className="specialty__group">
-                            <img src="public\img\specialty1.png" alt="" className="specialty__img"/>
+                            <img src="img\specialty1.png" alt="" className="specialty__img"/>
                             <h3 className="specialty__title">goku</h3>
                             <p className="specialty__description">
                             Specialty coffees and teas from china and cheer you up!
                             </p>
                         </div>
                         <div className="specialty__group">
-                            <img src="public\img\specialty2.png" alt="" className="specialty__img"/>
+                            <img src="img\specialty2.png" alt="" className="specialty__img"/>
                             <h3 className="specialty__title">goku</h3>
                             <p className="specialty__description">
                             Specialty coffees and teas from china and cheer you up!
                             </p>
                         </div>
                         <div className="specialty__group">
-                            <img src="public\img\specialty3.png" alt="" className="specialty__img"/>
+                            <img src="img\specialty3.png" alt="" className="specialty__img"/>
                             <h3 className="specialty__title">goku</h3>
                             <p className="specialty__description">
                             Specialty coffees and teas from china and cheer you up!

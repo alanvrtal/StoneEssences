@@ -47,7 +47,7 @@ export const Products = () => {
                         {/* Delicadezas */}
                         <article className="products__card delicacies">
                             <div className="products__shape">
-                                <img src="public\img\delicacies1.png" alt="" className="products__img" />
+                                <img src="img\delicacies1.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $2 </h2>
@@ -60,7 +60,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card delicacies">
                             <div className="products__shape">
-                                <img src="public\img\delicacies2.png" alt="" className="products__img" />
+                                <img src="img\delicacies2.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $6 </h2>
@@ -73,7 +73,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card delicacies">
                             <div className="products__shape">
-                                <img src="public\img\delicacies3.png" alt="" className="products__img" />
+                                <img src="img\delicacies3.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $10 </h2>
@@ -87,7 +87,7 @@ export const Products = () => {
                         {/* Coffes */}
                         <article className="products__card coffee">
                             <div className="products__shape">
-                                <img src="public\img\coffee1.png" alt="" className="products__img" />
+                                <img src="img\coffee1.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $2 </h2>
@@ -100,7 +100,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card coffee">
                             <div className="products__shape">
-                                <img src="public\img\coffee2.png" alt="" className="products__img" />
+                                <img src="img\coffee2.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $6 </h2>
@@ -113,7 +113,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card coffee">
                             <div className="products__shape">
-                                <img src="public\img\coffee3.png" alt="" className="products__img" />
+                                <img src="img\coffee3.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $10 </h2>
@@ -126,7 +126,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card coffee">
                             <div className="products__shape">
-                                <img src="public\img\coffee4.png" alt="" className="products__img" />
+                                <img src="img\coffee4.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $2 </h2>
@@ -140,7 +140,7 @@ export const Products = () => {
                         {/* CAKES */}
                         <article className="products__card cake">
                             <div className="products__shape">
-                                <img src="public\img\cake1.png" alt="" className="products__img" />
+                                <img src="img\cake1.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $15 </h2>
@@ -153,7 +153,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card cake">
                             <div className="products__shape">
-                                <img src="public\img\cake2.png" alt="" className="products__img" />
+                                <img src="img\cake2.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $13 </h2>
@@ -166,7 +166,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card cake">
                             <div className="products__shape">
-                                <img src="public\img\cake3.png" alt="" className="products__img" />
+                                <img src="img\cake3.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $10 </h2>
@@ -179,7 +179,7 @@ export const Products = () => {
                         </article>
                         <article className="products__card cake">
                             <div className="products__shape">
-                                <img src="public\img\cake4.png" alt="" className="products__img" />
+                                <img src="img\cake4.png" alt="" className="products__img" />
                             </div>
                             <div className="products__data">
                                 <h2 className="products__price"> $15 </h2>

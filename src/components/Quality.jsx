@@ -9,8 +9,8 @@ export const Quality = () => {
 
                     <div className="quality__content grid">
                         <div className="quality__images">
-                            <img src="public\img\quality1.png" alt="" className="quality__img-big" />
-                            <img src="public\img\quality2.png" alt="" className="quality__img-small" />
+                            <img src="img\quality1.png" alt="" className="quality__img-big" />
+                            <img src="img\quality2.png" alt="" className="quality__img-small" />
                         </div>
 
                         <div className="quality__data">
