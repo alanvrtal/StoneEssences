@@ -448,7 +448,7 @@ button {
 .quality__button {
     font-size: var(--normal-font-size);
     text-transform: uppercase;
-    Color: var(--title-color);
+    color: var(--title-color);
     display: inline-flex;
     align-items: center;
     column-gap: .75rem;

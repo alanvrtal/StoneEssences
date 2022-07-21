@@ -27,11 +27,11 @@ export const Home = () => {
                         </div>
                     </div>
                     <a href="#specialty">
-                        <img src="src\img\scroll.png" alt="" className="home__scroll" />
+                        <img src="public\img\scroll.png" alt="" className="home__scroll" />
                     </a>
                 </div>
             </div>
-            <img src="src/img/home.png" alt=""  className="home__img"/>
+            <img src="public\img\home.png" alt=""  className="home__img"/>
         </section>
 </>  )
 }

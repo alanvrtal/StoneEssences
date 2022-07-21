@@ -48,7 +48,7 @@ export const Nav = () => {
         <header className={`header ${scrollHeader ? 'scroll-header' : ''}`} id="header">
             <nav className="nav container">
                 <a href="#" className="nav__logo">
-                    <img src="src\img\logo.png" alt="" className="nav__logo-img" />
+                    <img src="public\img\logo.png" alt="" className="nav__logo-img" />
                     Coffee.
                 </a>
                 <div className={`nav__menu ${showMenu ? 'show' : ""}`} id="nav-menu">
