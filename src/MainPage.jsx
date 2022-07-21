@@ -42,7 +42,7 @@ export const MainPage = () => {
     return (
         <>
         <div className="load" id="load">
-            <img src="public\img\loadcoffee.gif" alt="" className="load__gif" />
+            <img src="img\loadcoffee.gif" alt="" className="load__gif" />
         </div>
         <Nav/>
         <main>
@@ -52,11 +52,11 @@ export const MainPage = () => {
             <Quality/>
             <section className="logo section">
                 <div className="logo__container container grid">
-                    <img src="public\img\logocoffee1.png" alt="" className="logo__img" />
-                    <img src="public\img\logocoffee2.png" alt="" className="logo__img" />
-                    <img src="public\img\logocoffee3.png" alt="" className="logo__img" />
-                    <img src="public\img\logocoffee4.png" alt="" className="logo__img" />
-                    <img src="public\img\logocoffee5.png" alt="" className="logo__img" />
+                    <img src="img\logocoffee1.png" alt="" className="logo__img" />
+                    <img src="img\logocoffee2.png" alt="" className="logo__img" />
+                    <img src="img\logocoffee3.png" alt="" className="logo__img" />
+                    <img src="img\logocoffee4.png" alt="" className="logo__img" />
+                    <img src="img\logocoffee5.png" alt="" className="logo__img" />
                 </div>
             </section>
             <Blog/>
