@@ -32,23 +32,25 @@ export const MainPage = () => {
     /* LOADER */
     const [loading,setLoading] =  useState(true)
     
-    onload = () => {
+    useEffect (() => {
         setTimeout (() => {
             setLoading(false)
-        }, 2500)
-    }
+        }, 2500),
+            [] }) 
 
 
 
     return (
         <>
         {
-        loading ? (
+        loading ? 
+        (
         <div className="load" id="load">
             <img src="img\loadcoffee.gif" alt="" className="load__gif" />
         </div>
-
-        ):(
+        )
+        :
+        (
             <>
             <Nav/>
         <main>
@@ -71,8 +73,7 @@ export const MainPage = () => {
             <i className="bx bx-up-arrow-alt"></i>
         </a>
         </>
-        )
-        }
+        )}
     </>
   )
 }
